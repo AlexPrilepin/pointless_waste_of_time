@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1038</width>
+    <height>454</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>20</y>
+      <width>891</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Уважаемые Посетители!&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Мы рады, что Вы поддержали наш Стартап-Проект экспериментального кафе. Экспериментальность нашего экспериментального&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;кафе будет увеличена исключительно экспериментальным&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;экспериментом-способом засчёт использования единственного вида кофе.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>180</y>
+      <width>891</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>117</number>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>Наш товар</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>сорт</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>степень обжарки</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>молотый/в зёрнах</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>описание</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>цена</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>размер упаковки</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>8-800-555-3535</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>КОФЕ из детства!</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>Макс-Мин-ХЗ</string>
+     </property>
+    </item>
+    <item row="0" column="3">
+     <property name="text">
+      <string>Гибрид</string>
+     </property>
+    </item>
+    <item row="0" column="4">
+     <property name="text">
+      <string>Лучший кофе XD</string>
+     </property>
+    </item>
+    <item row="0" column="5">
+     <property name="text">
+      <string>100500 пиастров</string>
+     </property>
+    </item>
+    <item row="0" column="6">
+     <property name="text">
+      <string>А скок надо?</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>260</y>
+      <width>891</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Номер лицензии специально написан очень мелким&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;текстом и состоит из огромного количества&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;цифр и букв, чтобы вы его не могли его прочитать:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:6pt; font-weight:600;&quot;&gt;4293-49132-482-34-2358-038-30щшваф9з243гщды97щ43шц909304029032490.....ыаывоаволаыощ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1038</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
